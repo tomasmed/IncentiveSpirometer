@@ -31,7 +31,7 @@ public class VolumeGaugeController : MonoBehaviour
     private static int timer;
     public static VolumeGaugeController S;
 
-    private static string url = "";
+    public string url = "";
 
 
     // Use this for initialization
