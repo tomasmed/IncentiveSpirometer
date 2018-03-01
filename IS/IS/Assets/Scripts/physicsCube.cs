@@ -34,21 +34,17 @@ public class physicsCube : MonoBehaviour {
 	}
 
 	void good(){
-		rb.AddForce (new Vector3 (distance/5.8f, distance/2, 0));
+		rb.AddForce (new Vector3 (distance/5.25f, distance/2, 0));
 		StartCoroutine (goodStutter ());
 	}
 
 	IEnumerator goodStutter(){
-		yield return new WaitForSeconds (2f);
-		rb.AddForce (new Vector3 (0, distance / 5, 0));
-		yield return new WaitForSeconds (1.3f);
-		rb.AddForce (new Vector3 (0, distance / 5, 0));
-		yield return new WaitForSeconds (1f);
-		rb.AddForce (new Vector3 (0, distance / 5, 0));
-		yield return new WaitForSeconds (.8f);
-		rb.AddForce (new Vector3 (0, distance / 5, 0));
-		yield return new WaitForSeconds (.5f);
-		rb.AddForce (new Vector3 (0, distance / 5, 0));
+		yield return new WaitForSeconds (1.9f);
+		rb.AddForce (new Vector3 (0, distance / 3, 0));
+		yield return new WaitForSeconds (.7f);
+		rb.AddForce (new Vector3 (0, distance / 4, 0));
+		yield return new WaitForSeconds (.7f);
+		rb.AddForce (new Vector3 (0, distance / 4, 0));
 	}
 
 	void fail(){
