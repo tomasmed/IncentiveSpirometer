@@ -8,6 +8,14 @@ public class physicsCube : MonoBehaviour {
 	public float distance = 1000f;
 
 	public bool hasMoved = false;
+	public bool doneWalking = true;
+	public float walkDistance = 5f;
+	public float walkSpeed = 2f;
+
+	public int obstaclesCleared = 0;
+
+	public float targetPosition;
+	bool currentlyWalking = false;
 	Rigidbody rb;
 
 	// Use this for initialization
@@ -17,7 +25,7 @@ public class physicsCube : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (!hasMoved) {
+		if (!hasMoved && doneWalking) {
 			hasMoved = true;
 			if (score > 80) {
 				perfect ();
@@ -25,6 +33,15 @@ public class physicsCube : MonoBehaviour {
 				good ();
 			} else {
 				fail ();
+			}
+		}
+		else if (!doneWalking) {
+			if (transform.position.x < targetPosition) {
+				rb.velocity = Vector3.right * walkSpeed;
+			} else {
+				rb.velocity = Vector3.zero;
+				transform.position = new Vector3 (targetPosition, transform.position.y, transform.position.z);
+				doneWalking = true; 
 			}
 		}
 	}
@@ -48,19 +65,25 @@ public class physicsCube : MonoBehaviour {
 	}
 
 	void fail(){
-		rb.AddForce (new Vector3 (0, distance/4, 0));
 	}
 
 	IEnumerator delayCollisionCheck(){
 		yield return new WaitForSeconds (.5f);
 		if (hasMoved) {
+			doneWalking = false;
 			hasMoved = false;
 		}
 	}
+		
 
 	void OnCollisionEnter(Collision other){
 		if (hasMoved) {
 			StartCoroutine(delayCollisionCheck());
 		}
+		targetPosition = Mathf.RoundToInt(transform.position.x + walkDistance);
+	}
+
+	void OnTriggerEnter(Collider collider){
+		obstaclesCleared++;
 	}
 }
