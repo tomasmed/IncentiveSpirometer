@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 212034912399990308}
   - component: {fileID: 65646096338083246}
   m_Layer: 0
-  m_Name: Obstacle (6)
+  m_Name: Cactus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
