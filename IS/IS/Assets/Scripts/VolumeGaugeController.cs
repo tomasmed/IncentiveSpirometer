@@ -15,9 +15,9 @@ public class VolumeGaugeController : MonoBehaviour
     private float vol = 0;
     private float flow = 0;
 
-    public InputField infield;
-    public Text intext;
-    public Button yourButton ;
+    //public InputField infield;
+    //public Text intext;
+   // public Button yourButton ;
     public bool readytosample = false;
 
 
@@ -40,8 +40,11 @@ public class VolumeGaugeController : MonoBehaviour
         timer = 0;
         S = this;
 
-        Button btn = yourButton.GetComponent<Button>();
-        btn.onClick.AddListener(changesamplesettings);
+        // Start samplling
+        changesamplesettings();
+
+        //Button btn = yourButton.GetComponent<Button>();
+        //btn.onClick.AddListener(changesamplesettings);
     }
 
     // Update is called once per frame
