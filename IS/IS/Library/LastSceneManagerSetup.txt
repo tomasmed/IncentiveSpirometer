@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Shawki_Scene.unity
+=======
+- path: Assets/Scenes/Abbey_Scene.unity
+>>>>>>> master
   isLoaded: 1
   isActive: 1

@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: ProgressBar
+    uniqueID: 4173505363
+    locked: 0
+  - name: Stars
+    uniqueID: 1707533817
+    locked: 0
