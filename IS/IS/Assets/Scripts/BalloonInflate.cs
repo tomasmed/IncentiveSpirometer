@@ -144,7 +144,7 @@ public class BalloonInflate : MonoBehaviour
         yield return www.Send();
         //yield return www.SendWebRequest();
 
-        if (www.isNetworkError)
+        if (www.isError)
         {
             Debug.Log(www.error);
         }
