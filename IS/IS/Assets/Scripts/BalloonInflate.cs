@@ -35,9 +35,9 @@ public class BalloonInflate : MonoBehaviour
     private float new_flow = 0; // new values go here, so we can compare to old values
     private float new_vol = 0; // new values go here, so we can compare to old values
 
-    public InputField infield;
-    public Text intext;
-    public Button yourButton;
+    //public InputField infield;
+    //public Text intext;
+    //public Button yourButton;
     public bool readytosample = false;
 
 
@@ -69,8 +69,9 @@ public class BalloonInflate : MonoBehaviour
         timer = 0;
         S = this;
 
-        Button btn = yourButton.GetComponent<Button>();
-        btn.onClick.AddListener(changesamplesettings);
+        //Button btn = yourButton.GetComponent<Button>();
+        //btn.onClick.AddListener(changesamplesettings);
+        changesamplesettings();
     }
 
     // Update is called once per frame
@@ -117,6 +118,7 @@ public class BalloonInflate : MonoBehaviour
                 }
                 else if (noChangeTimer >= done_frames) {
                     // Move on to the next step of animation
+                    physicsCube.S.score = max_vol;
                 }
 
                 // Now grow the balloon, if the volume level went up
@@ -144,7 +146,7 @@ public class BalloonInflate : MonoBehaviour
         yield return www.Send();
         //yield return www.SendWebRequest();
 
-        if (www.isNetworkError)
+        if (www.isError)
         {
             Debug.Log(www.error);
         }
@@ -176,7 +178,7 @@ public class BalloonInflate : MonoBehaviour
 
     public void changesamplesettings()
     {
-        Debug.Log("you clicked the button! the ip is: " + intext.text);
+        //Debug.Log("you clicked the button! the ip is: " + intext.text);
         url = "https://eos.mpogresearch.org/Reports/NG.aspx";// intext.text;
         readytosample = !readytosample;
         if (readytosample)

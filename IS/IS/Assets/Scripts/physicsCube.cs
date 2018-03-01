@@ -18,8 +18,15 @@ public class physicsCube : MonoBehaviour {
 	bool currentlyWalking = false;
 	Rigidbody rb;
 
-	// Use this for initialization
-	void Start () {
+    public static physicsCube S;
+
+    private void Awake()
+    {
+        S = this;
+    }
+
+    // Use this for initialization
+    void Start () {
 		rb = this.GetComponent<Rigidbody>();
 	}
 	
