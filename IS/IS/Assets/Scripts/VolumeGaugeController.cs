@@ -31,7 +31,7 @@ public class VolumeGaugeController : MonoBehaviour
     private static int timer;
     public static VolumeGaugeController S;
 
-    private static string url = "";
+    public string url = "";
 
 
     // Use this for initialization
@@ -80,11 +80,11 @@ public class VolumeGaugeController : MonoBehaviour
         yield return www.Send();
         //yield return www.SendWebRequest();
 
-        if (www.isNetworkError)
-        {
-            Debug.Log(www.error);
-        }
-        else
+        //if (www.isNetworkError)
+        //{
+        //    Debug.Log(www.error);
+        //}
+        //else
         {
             // Show results as text
             Debug.Log(www.downloadHandler.text);
