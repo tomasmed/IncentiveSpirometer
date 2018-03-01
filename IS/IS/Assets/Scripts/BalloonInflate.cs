@@ -54,10 +54,10 @@ public class BalloonInflate : MonoBehaviour
     public static BalloonInflate S;
 
     //These are definitions for thresholds and ranges that will need to be changed eventually.
-    private static float flow_limit = 67; //anything higher than this limit is unacceptable flow rate
-    private static float bad_flow_frames = 6; // if the flow rate stays bad for this many frames or more, fail
-    private static float done_frames = 3; // if the volume stays level or decreases for this many frames, move on
-    private float scale_factor = .1f; // This is how much to scale the shape change based on the difference between last & current input
+    public static float flow_limit = 67; //anything higher than this limit is unacceptable flow rate
+    public static float bad_flow_frames = 6; // if the flow rate stays bad for this many frames or more, fail
+    public static float done_frames = 3; // if the volume stays level or decreases for this many frames, move on
+    public float scale_factor = .1f; // This is how much to scale the shape change based on the difference between last & current input
 
     private static string url = "";
     private static Vector3 origScale; // Original scale of the sprite
