@@ -6,7 +6,7 @@ public class GameController : MonoBehaviour {
 
     public static GameController S;
 
-    public float score = 0;
+    public float score = 0f;
     public int tries = 0;
     public int successes = 0;
 

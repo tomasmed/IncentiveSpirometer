@@ -20,6 +20,10 @@ public class CameraController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//if(target.position.x >= 0)
+        if (target.position.x >= RightEdge.position.x)
+        {
+            CameraTransform.position = new Vector3(CameraTransform.position.x + (speed * Time.deltaTime), CameraTransform.position.y, CameraTransform.position.z);
+            RightEdge.position = new Vector3(RightEdge.position.x + (speed * Time.deltaTime), RightEdge.position.y, RightEdge.position.z);
+        }
 	}
 }
