@@ -3,7 +3,124 @@ guid: ea3d923503a275c45b442fde110c5748
 timeCreated: 1519935502
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Alvie_many_hr_0
+    21300002: Alvie_many_hr_1
+    21300004: Alvie_many_hr_2
+    21300006: Alvie_many_hr_3
+    21300008: Alvie_many_hr_4
+    21300010: Alvie_many_hr_5
+    21300012: Alvie_many_hr_6
+    21300014: Alvie_many_hr_7
+    21300016: Alvie_many_hr_8
+    21300018: Alvie_many_hr_9
+    21300020: Alvie_many_hr_10
+    21300022: Alvie_many_hr_11
+    21300024: Alvie_many_hr_12
+    21300026: Alvie_many_hr_13
+    21300028: Alvie_many_hr_14
+    21300030: Alvie_many_hr_15
+    21300032: Alvie_many_hr_16
+    21300034: Alvie_many_hr_17
+    21300036: Alvie_many_hr_18
+    21300038: Alvie_many_hr_19
+    21300040: Alvie_many_hr_20
+    21300042: Alvie_many_hr_21
+    21300044: Alvie_many_hr_22
+    21300046: Alvie_many_hr_23
+    21300048: Alvie_many_hr_24
+    21300050: Alvie_many_hr_25
+    21300052: Alvie_many_hr_26
+    21300054: Alvie_many_hr_27
+    21300056: Alvie_many_hr_28
+    21300058: Alvie_many_hr_29
+    21300060: Alvie_many_hr_30
+    21300062: Alvie_many_hr_31
+    21300064: Alvie_many_hr_32
+    21300066: Alvie_many_hr_33
+    21300068: Alvie_many_hr_34
+    21300070: Alvie_many_hr_35
+    21300072: Alvie_many_hr_36
+    21300074: Alvie_many_hr_37
+    21300076: Alvie_many_hr_38
+    21300078: Alvie_many_hr_39
+    21300080: Alvie_many_hr_40
+    21300082: Alvie_many_hr_41
+    21300084: Alvie_many_hr_42
+    21300086: Alvie_many_hr_43
+    21300088: Alvie_many_hr_44
+    21300090: Alvie_many_hr_45
+    21300092: Alvie_many_hr_46
+    21300094: Alvie_many_hr_47
+    21300096: Alvie_many_hr_48
+    21300098: Alvie_many_hr_49
+    21300100: Alvie_many_hr_50
+    21300102: Alvie_many_hr_51
+    21300104: Alvie_many_hr_52
+    21300106: Alvie_many_hr_53
+    21300108: Alvie_many_hr_54
+    21300110: Alvie_many_hr_55
+    21300112: Alvie_many_hr_56
+    21300114: Alvie_many_hr_57
+    21300116: Alvie_many_hr_58
+    21300118: Alvie_many_hr_59
+    21300120: Alvie_many_hr_60
+    21300122: Alvie_many_hr_61
+    21300124: Alvie_many_hr_62
+    21300126: Alvie_many_hr_63
+    21300128: Alvie_many_hr_64
+    21300130: Alvie_many_hr_65
+    21300132: Alvie_many_hr_66
+    21300134: Alvie_many_hr_67
+    21300136: Alvie_many_hr_68
+    21300138: Alvie_many_hr_69
+    21300140: Alvie_many_hr_70
+    21300142: Alvie_many_hr_71
+    21300144: Alvie_many_hr_72
+    21300146: Alvie_many_hr_73
+    21300148: Alvie_many_hr_74
+    21300150: Alvie_many_hr_75
+    21300152: Alvie_many_hr_76
+    21300154: Alvie_many_hr_77
+    21300156: Alvie_many_hr_78
+    21300158: Alvie_many_hr_79
+    21300160: Alvie_many_hr_80
+    21300162: Alvie_many_hr_81
+    21300164: Alvie_many_hr_82
+    21300166: Alvie_many_hr_83
+    21300168: Alvie_many_hr_84
+    21300170: Alvie_many_hr_85
+    21300172: Alvie_many_hr_86
+    21300174: Alvie_many_hr_87
+    21300176: Alvie_many_hr_88
+    21300178: Alvie_many_hr_89
+    21300180: Alvie_many_hr_90
+    21300182: Alvie_many_hr_91
+    21300184: Alvie_many_hr_92
+    21300186: Alvie_many_hr_93
+    21300188: Alvie_many_hr_94
+    21300190: Alvie_many_hr_95
+    21300192: Alvie_many_hr_96
+    21300194: Alvie_many_hr_97
+    21300196: Alvie_many_hr_98
+    21300198: Alvie_many_hr_99
+    21300200: Alvie_many_hr_100
+    21300202: Alvie_many_hr_101
+    21300204: Alvie_many_hr_102
+    21300206: Alvie_many_hr_103
+    21300208: Alvie_many_hr_104
+    21300210: Alvie_many_hr_105
+    21300212: Alvie_many_hr_106
+    21300214: Alvie_many_hr_107
+    21300216: Alvie_many_hr_108
+    21300218: Alvie_many_hr_109
+    21300220: Alvie_many_hr_110
+    21300222: Alvie_many_hr_111
+    21300224: Alvie_many_hr_112
+    21300226: Alvie_many_hr_113
+    21300228: Alvie_many_hr_114
+    21300230: Alvie_many_hr_115
+  externalObjects: {}
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -12,6 +129,8 @@ TextureImporter:
     linearTexture: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -27,14 +146,17 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: -1
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -51,17 +173,1654 @@ TextureImporter:
   textureFormatSet: 0
   platformSettings:
   - buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Alvie_many_hr_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1948
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_1
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1948
+        width: 89
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_2
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1948
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_3
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1948
+        width: 88
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_4
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1948
+        width: 84
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_5
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1948
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_6
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1948
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_7
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1948
+        width: 93
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_8
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1948
+        width: 88
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_9
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1948
+        width: 84
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_10
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1948
+        width: 85
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_11
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1835
+        width: 86
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_12
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1835
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_13
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1835
+        width: 89
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_14
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1835
+        width: 88
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_15
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1752
+        width: 107
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_16
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 1752
+        width: 105
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_17
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1752
+        width: 105
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_18
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1752
+        width: 105
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_19
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1752
+        width: 105
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1631
+        width: 103
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_21
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1631
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_22
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1631
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_23
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1631
+        width: 80
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_24
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 1631
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_25
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1631
+        width: 81
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_26
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1631
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_27
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1631
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_28
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1631
+        width: 117
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_29
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1631
+        width: 97
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_30
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1631
+        width: 97
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_31
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1518
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_32
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1518
+        width: 93
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_33
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1518
+        width: 88
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_34
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1518
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_35
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1518
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_36
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1518
+        width: 93
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_37
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1518
+        width: 96
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_38
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 1518
+        width: 93
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_39
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1518
+        width: 89
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_40
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 1518
+        width: 93
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_41
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 1518
+        width: 97
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_42
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 1518
+        width: 89
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_43
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1410
+        width: 94
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_44
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1410
+        width: 97
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_45
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1410
+        width: 97
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_46
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1410
+        width: 97
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_47
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1410
+        width: 93
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_48
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1410
+        width: 93
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_49
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1410
+        width: 92
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_50
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1410
+        width: 97
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_51
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1285
+        width: 82
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_52
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1285
+        width: 85
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_53
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1285
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_54
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1285
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_55
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1285
+        width: 80
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_56
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1285
+        width: 84
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_57
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 1285
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_58
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1285
+        width: 80
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_59
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1285
+        width: 80
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_60
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1148
+        width: 78
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_61
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1148
+        width: 85
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_62
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 1147
+        width: 84
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_63
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 1148
+        width: 80
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_64
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1148
+        width: 80
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_65
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1152
+        width: 105
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_66
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1147
+        width: 105
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_67
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1147
+        width: 105
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_68
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1014
+        width: 94
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_69
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1014
+        width: 97
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_70
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1014
+        width: 85
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_71
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1014
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_72
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1014
+        width: 92
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_73
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1014
+        width: 88
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_74
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1014
+        width: 105
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_75
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 1014
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_76
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1014
+        width: 105
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_77
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1014
+        width: 110
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_78
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1014
+        width: 114
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_79
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 1014
+        width: 103
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_80
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 889
+        width: 98
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_81
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 889
+        width: 109
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_82
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 889
+        width: 109
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_83
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 889
+        width: 109
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_84
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 889
+        width: 130
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_85
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 889
+        width: 139
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_86
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 889
+        width: 113
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_87
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 889
+        width: 80
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_88
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 889
+        width: 97
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_89
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 889
+        width: 101
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_90
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 772
+        width: 82
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_91
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 772
+        width: 93
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_92
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 772
+        width: 97
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_93
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 772
+        width: 101
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_94
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 772
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_95
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 664
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_96
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 664
+        width: 89
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_97
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 664
+        width: 89
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_98
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 664
+        width: 89
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_99
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 664
+        width: 93
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_100
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 664
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_101
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 664
+        width: 97
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_102
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 664
+        width: 97
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_103
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 664
+        width: 97
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_104
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 664
+        width: 105
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_105
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 556
+        width: 90
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_106
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 556
+        width: 92
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_107
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 556
+        width: 92
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_108
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 556
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_109
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 556
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_110
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 556
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_111
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 556
+        width: 93
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_112
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 441
+        width: 40
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_113
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 441
+        width: 88
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_114
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 441
+        width: 84
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Alvie_many_hr_115
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 441
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 
