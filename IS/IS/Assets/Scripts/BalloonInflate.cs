@@ -186,10 +186,10 @@ public class BalloonInflate : MonoBehaviour
 
     private Vector3 move_bobbin(Transform bobbin, float change)
     {
-        if ((bobbin.position.y / 5 * 100 + 3) < change)
+        if ((bobbin.position.y / 15 * 100 + 3) < change)
             return new Vector3(bobbin.transform.position.x, bobbin.position.y + (vertical_shift * Time.deltaTime), bobbin.transform.position.z);
 
-        else if ((bobbin.position.y / 5 * 100 - 3) > change)
+        else if ((bobbin.position.y / 15 * 100 - 3) > change)
             return new Vector3(bobbin.transform.position.x, bobbin.position.y - (vertical_shift * Time.deltaTime), bobbin.transform.position.z);
         else return bobbin.transform.position;
     }
