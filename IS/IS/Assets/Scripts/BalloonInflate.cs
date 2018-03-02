@@ -1,21 +1,4 @@
-﻿/*using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class BalloonInflateScript : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-}
-*/
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -25,19 +8,17 @@ using UnityEngine.UI;
 
 public class BalloonInflate : MonoBehaviour
 {
+    public Transform flow_bobbin;
+    public Transform vol_bobbin;
 
-    public KeyCode input_b;
-    public float vertical_shift = 0.1f;
+    public float vertical_shift = 5f;
     private float res = 0;
     private float vol = 0;
     private float flow = 0;
     private bool new_vals; // this is going to track whether we read new values from the controller
     private float new_flow = 0; // new values go here, so we can compare to old values
-    private float new_vol = 0; // new values go here, so we can compare to old values
+    [SerializeField] private float new_vol = 0; // new values go here, so we can compare to old values
 
-    //public InputField infield;
-    //public Text intext;
-    //public Button yourButton;
     public bool readytosample = false;
 
 
@@ -45,12 +26,11 @@ public class BalloonInflate : MonoBehaviour
     public string[] strarray = new string[] { };
     private string[] strsep = new string[] { "," };
 
-    public Transform balloon;
 
     // Timers
     private static int timer; // track screen updates & try to get new values every 30th update
     private static int failTimer = 0; //track time with flow meter in fail state
-    private static int noChangeTimer = 0; // track time with level in a constant or declining state
+    [SerializeField] private int noChangeTimer = 0; // track time with level in a constant or declining state
     public static BalloonInflate S;
 
     //These are definitions for thresholds and ranges that will need to be changed eventually.
@@ -62,6 +42,9 @@ public class BalloonInflate : MonoBehaviour
     private static string url = "";
     private static Vector3 origScale; // Original scale of the sprite
     private static float max_vol = 0f; // Maximum volume achieved so far
+
+    public bool increasing = false;
+    public bool decr = false;
 
     // Use this for initialization
     void Start()
@@ -81,11 +64,13 @@ public class BalloonInflate : MonoBehaviour
         //button.gameObject.GetComponent<Button>().onClick(AddListener(Debug.Log("test"))); // onClick(Debug.Log("Button was clicked"));
         if (readytosample)
         {
+            flow_bobbin.position = move_bobbin(flow_bobbin, flow);
+            vol_bobbin.position = move_bobbin(vol_bobbin, vol);
             timer++;
             if (timer > 30)
             // try to read from the controller ever 30 frames
             {
-                Debug.Log("Starting Coroutine to get Input");
+                //Debug.Log("Starting Coroutine to get Input");
                 timer = 0;
                 failTimer = 0;
                 res = 0;
@@ -113,19 +98,26 @@ public class BalloonInflate : MonoBehaviour
                 if (failTimer >= bad_flow_frames) {
                     // Go to failure animation
                     // ... or just reset size to normal?
-                    balloon.localScale = origScale;
+                    //balloon.localScale = origScale;
                     max_vol = 0;
                 }
                 else if (noChangeTimer >= done_frames) {
                     // Move on to the next step of animation
+                    //patient probably stopped breathing and the bobbin is falling evaulate the Score and send it to The movement controller
+
                     physicsCube.S.score = max_vol;
+                    physicsCube.S.inflating = false;
+                    physicsCube.S.readytojump = true;
+                    max_vol = 0;
+
                 }
 
                 // Now grow the balloon, if the volume level went up
                 if (new_vol > max_vol) {
                     Debug.Log("Max volume attained: " + new_vol);
                     max_vol = new_vol;
-                    balloon.localScale = new Vector3(origScale.x * scale_factor * new_vol, origScale.y * scale_factor * new_vol);
+                    physicsCube.S.inflating = true;
+                    //balloon.localScale = new Vector3(origScale.x * scale_factor * new_vol, origScale.y * scale_factor * new_vol);
                 }
                 // store these new values as the current values
                 vol = new_vol;
@@ -165,10 +157,14 @@ public class BalloonInflate : MonoBehaviour
                 frame than to see that we have new values when we actually don't. */
 
 
+            if (increasing) new_vol+= 5f;
+            if (decr && new_vol > 1) new_vol-= 5f;
+
+
             //vol is the one that needs to keep getting larger and get as large as possible
-            new_vol = float.Parse(strarray[0]);
+            //new_vol = float.Parse(strarray[0]);
             //flow needs to stay within the acceptable range
-            new_flow = float.Parse(strarray[1]);
+            //new_flow = float.Parse(strarray[1]);
             new_vals = true;
 
 
@@ -178,13 +174,22 @@ public class BalloonInflate : MonoBehaviour
 
     public void changesamplesettings()
     {
-        //Debug.Log("you clicked the button! the ip is: " + intext.text);
-        url = "https://eos.mpogresearch.org/Reports/NG.aspx";// intext.text;
+        url = "https://eos.mpogresearch.org/Reports/NG.aspx";
         readytosample = !readytosample;
         if (readytosample)
         {
-            origScale = balloon.localScale;
+            //origScale = balloon.localScale;
         }
+    }
+
+    private Vector3 move_bobbin(Transform bobbin, float change)
+    {
+        if ((bobbin.position.y / 5 * 100 + 3) < change)
+            return new Vector3(bobbin.transform.position.x, bobbin.position.y + (vertical_shift * Time.deltaTime), bobbin.transform.position.z);
+
+        else if ((bobbin.position.y / 5 * 100 - 3) > change)
+            return new Vector3(bobbin.transform.position.x, bobbin.position.y - (vertical_shift * Time.deltaTime), bobbin.transform.position.z);
+        else return bobbin.transform.position;
     }
 
 }
