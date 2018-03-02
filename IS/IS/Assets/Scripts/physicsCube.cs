@@ -24,6 +24,8 @@ public class physicsCube : MonoBehaviour {
     public bool readytojump = false;
     public bool inflating = false;
 
+    public Animator animator ;
+
     private void Awake()
     {
         S = this;
@@ -32,13 +34,21 @@ public class physicsCube : MonoBehaviour {
     // Use this for initialization
     void Start () {
 		rb = this.GetComponent<Rigidbody>();
-	}
+        animator = GetComponent<Animator>();
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
+        
+        //animator.SetFloat("Strafe", h);
+        //animator.SetBool("Fire", fire);
+
         if (!hasMoved && doneWalking && readytojump)
         {
             hasMoved = true;
+            animator.SetFloat("Score", score);
+           
             if (score > 80)
             {
                 //Play perfect animation
@@ -71,14 +81,19 @@ public class physicsCube : MonoBehaviour {
                 rb.velocity = Vector3.zero;
                 transform.position = new Vector3(targetPosition, transform.position.y, transform.position.z);
                 doneWalking = true;
+                animator.SetBool("DoneWalking", true);
+                physicsCube.S.animator.SetBool("DoneBreathing", true);
+
             }
         }
         else {
-            if (inflating) { 
+            if (inflating) {
                 //play ifnlating
+                animator.SetBool("Readytobreathe", true);
             }
             else {
                 //Play IDLE
+                animator.SetBool("Readytobreathe", false);
             }
         }
 	}
@@ -111,7 +126,10 @@ public class physicsCube : MonoBehaviour {
         //Maybe add randomness in there and change animation loop to run?
 		if (hasMoved) {
 			doneWalking = false;
-			hasMoved = false;
+            animator.SetBool("DoneWalking", false);
+            physicsCube.S.animator.SetBool("DoneBreathing", true);
+
+            hasMoved = false;
 		}
 	}
 		

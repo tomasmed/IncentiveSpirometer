@@ -105,6 +105,7 @@ public class BalloonInflate : MonoBehaviour
                     // Move on to the next step of animation
                     //patient probably stopped breathing and the bobbin is falling evaulate the Score and send it to The movement controller
 
+                    physicsCube.S.animator.SetBool("doneBreathing",true);
                     physicsCube.S.score = max_vol;
                     physicsCube.S.inflating = false;
                     physicsCube.S.readytojump = true;
