@@ -39,7 +39,7 @@ public class BalloonInflate : MonoBehaviour
     public static float done_frames = 3; // if the volume stays level or decreases for this many frames, move on
     public float scale_factor = .1f; // This is how much to scale the shape change based on the difference between last & current input
 
-    private static string url = "";
+    [SerializeField]private string url = "";
     private static Vector3 origScale; // Original scale of the sprite
     private static float max_vol = 0f; // Maximum volume achieved so far
 
@@ -158,14 +158,14 @@ public class BalloonInflate : MonoBehaviour
                 frame than to see that we have new values when we actually don't. */
 
 
-            if (increasing) new_vol+= 5f;
-            if (decr && new_vol > 1) new_vol-= 5f;
+            //if (increasing) new_vol+= 5f;
+            //if (decr && new_vol > 1) new_vol-= 5f;
 
 
             //vol is the one that needs to keep getting larger and get as large as possible
-            //new_vol = float.Parse(strarray[0]);
+            new_vol = float.Parse(strarray[0]);
             //flow needs to stay within the acceptable range
-            //new_flow = float.Parse(strarray[1]);
+            new_flow = float.Parse(strarray[1]);
             new_vals = true;
 
 
@@ -175,7 +175,8 @@ public class BalloonInflate : MonoBehaviour
 
     public void changesamplesettings()
     {
-        url = "https://eos.mpogresearch.org/Reports/NG.aspx";
+        //url = "https://eos.mpogresearch.org/Reports/NG.aspx";
+        url = StartGame.S.url;
         readytosample = !readytosample;
         if (readytosample)
         {
