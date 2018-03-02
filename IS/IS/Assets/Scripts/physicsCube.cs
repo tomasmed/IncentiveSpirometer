@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class physicsCube : MonoBehaviour {
 
 	public float score = 80;
+    private static float totalscore;
 	public float distance = 1000f;
 
 	public bool hasMoved = false;
@@ -23,6 +25,8 @@ public class physicsCube : MonoBehaviour {
 
     public bool readytojump = false;
     public bool inflating = false;
+
+    public Text scoretext;
 
     public Animator animator ;
 
@@ -52,12 +56,18 @@ public class physicsCube : MonoBehaviour {
             if (score > 80)
             {
                 //Play perfect animation
+                Debug.Log(scoretext.text);
+                totalscore = float.Parse(scoretext.text) + score;
+                scoretext.text = totalscore.ToString();
                 perfect();
+                
             }
             else if (score > 30)
             {
                 //Play good animation
-
+                Debug.Log(scoretext.text);
+                totalscore = float.Parse(scoretext.text) + score;
+                scoretext.text = totalscore.ToString();
                 good();
             }
             else
