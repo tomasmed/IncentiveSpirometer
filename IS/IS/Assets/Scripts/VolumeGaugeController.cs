@@ -120,8 +120,8 @@ public class VolumeGaugeController : MonoBehaviour
     public void changesamplesettings()
     {
         // Debug.Log("you clicked the button! the ip is: " + intext.text);
-        url = "https://eos.mpogresearch.org/Reports/NG.aspx";// intext.text;
-        
+        //url = "https://eos.mpogresearch.org/Reports/NG.aspx";// intext.text;
+        url = "http://35.0.39.150/numbers/";
         readytosample = !readytosample;
     }
 
