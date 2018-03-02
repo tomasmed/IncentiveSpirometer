@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: a739207eebdcf2a449a912329f2dd8ed
+  - enabled: 0
     path: Assets/Scenes/Shawki_Scene.unity
     guid: 558e2da55bf114d5bbcbb50be45974cc
   - enabled: 1
