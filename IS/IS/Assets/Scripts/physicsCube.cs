@@ -20,6 +20,10 @@ public class physicsCube : MonoBehaviour {
 
     public static physicsCube S;
 
+
+    public bool readytojump = false;
+    public bool inflating = false;
+
     private void Awake()
     {
         S = this;
@@ -32,25 +36,51 @@ public class physicsCube : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (!hasMoved && doneWalking) {
-			hasMoved = true;
-			if (score > 80) {
-				perfect ();
-			} else if (score > 30) {
-				good ();
-			} else {
-				fail ();
-			}
-		}
-		else if (!doneWalking) {
-			if (transform.position.x < targetPosition) {
-				rb.velocity = Vector3.right * walkSpeed;
-			} else {
-				rb.velocity = Vector3.zero;
-				transform.position = new Vector3 (targetPosition, transform.position.y, transform.position.z);
-				doneWalking = true; 
-			}
-		}
+        if (!hasMoved && doneWalking && readytojump)
+        {
+            hasMoved = true;
+            if (score > 80)
+            {
+                //Play perfect animation
+                perfect();
+            }
+            else if (score > 30)
+            {
+                //Play good animation
+
+                good();
+            }
+            else
+            {
+                //Play fail animation
+
+                fail();
+                hasMoved = false;
+            }
+        }
+        else if (!doneWalking)
+        {
+            if (transform.position.x < targetPosition)
+            {
+                //Play wlking animation
+
+                rb.velocity = Vector3.right * walkSpeed;
+            }
+            else
+            {
+                rb.velocity = Vector3.zero;
+                transform.position = new Vector3(targetPosition, transform.position.y, transform.position.z);
+                doneWalking = true;
+            }
+        }
+        else {
+            if (inflating) { 
+                //play ifnlating
+            }
+            else {
+                //Play IDLE
+            }
+        }
 	}
 
 	void perfect(){
@@ -72,10 +102,13 @@ public class physicsCube : MonoBehaviour {
 	}
 
 	void fail(){
-	}
+        //rb.AddForce(new Vector3(0, distance / 1.5f, 0));
 
-	IEnumerator delayCollisionCheck(){
-		yield return new WaitForSeconds (.5f);
+    }
+
+    IEnumerator delayCollisionCheck(){
+		yield return new WaitForSeconds (1.5f); // Maybe change this to 10 seconds and leave him hanging up there while people hold their breath? 
+        //Maybe add randomness in there and change animation loop to run?
 		if (hasMoved) {
 			doneWalking = false;
 			hasMoved = false;
@@ -91,6 +124,7 @@ public class physicsCube : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider collider){
-		obstaclesCleared++;
+        obstaclesCleared++;
 	}
+
 }

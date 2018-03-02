@@ -55,7 +55,7 @@ public class VolumeGaugeController : MonoBehaviour
             timer++;
             if (timer > 30)
             {
-                Debug.Log("Starting Coroutine to get Input");
+                //Debug.Log("Starting Coroutine to get Input");
                 timer = 0;
                 res = 0;
                 StartCoroutine(GetText(res));
@@ -88,14 +88,14 @@ public class VolumeGaugeController : MonoBehaviour
         //else
         {
             // Show results as text
-            Debug.Log(www.downloadHandler.text);
+            //Debug.Log(www.downloadHandler.text);
             strtoparse = www.downloadHandler.text;
             strarray = strtoparse.Split(strsep,StringSplitOptions.None);
 
             //vol = UnityEngine.Random.Range(0, 100);
             //flow = UnityEngine.Random.Range(0, 100);
 
-            Debug.Log("Flow was assigned to: " + flow + " and volume was assigned to:" + vol);
+           // Debug.Log("Flow was assigned to: " + flow + " and volume was assigned to:" + vol);
 
 
             vol = float.Parse(strarray[0]);
